@@ -1,15 +1,13 @@
 package jawid;
 
-import petro.mentor.week_2.Password;
-
 public class InterviewTask1 {
- public static boolean passwordValidation(String password){
+ public static boolean passwordValidation1(String password){
 
 
  return true;
  }
 
  public static void main(String[] args) {
-  passwordValidation("jddjd$1");
+  passwordValidation1("jddjd$1");
  }
 }
