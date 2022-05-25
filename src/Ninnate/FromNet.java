@@ -6,6 +6,6 @@ public class FromNet {
 
         System.out.println("Hello everyone , thanks for your time today ");
 
-        
+
     }
 }
