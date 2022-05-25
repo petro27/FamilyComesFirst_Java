@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class MaxMinNumbers {
 
     public static int maxNumber(int[] numbers) {
-        int max = 0;
+        int max = numbers [0];
         for (int each : numbers) {
-            if (numbers[0] <= each) {
+            if (max <= each) {
                 max = each;
             }
         }
@@ -15,15 +15,14 @@ public class MaxMinNumbers {
     }
 
     public static int minNumber(int[] numbers) {
-        int min = 0;
+        int min = numbers[0];
         for (int each : numbers) {
-            if (numbers[0] >= each) {
+            if (min >= each) {
                 min = each;
             }
         }
         return min;
     }
-
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
