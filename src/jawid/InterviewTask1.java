@@ -8,4 +8,8 @@ public class InterviewTask1 {
 
  return true;
  }
+
+ public static void main(String[] args) {
+  passwordValidation("jddjd$1");
+ }
 }
