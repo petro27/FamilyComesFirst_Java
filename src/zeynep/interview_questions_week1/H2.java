@@ -19,6 +19,6 @@ public class H2 {
     }
 
     public static void main(String[] args) {
-        System.out.println(sameLetters("abc", "bhb"));
+        System.out.println(sameLetters("abc", "bhp"));
     }
 }
