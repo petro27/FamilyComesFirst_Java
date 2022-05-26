@@ -1,4 +1,7 @@
 package jawid;
+
+import petro.mentor.week_2.Password;
+
 /*
     2️⃣ String - Password Validation Task
     Write a return method that can verify if a password is valid or not. Requirements:
@@ -41,6 +44,22 @@ public class InterviewTask1 {
     return false;
    }
   }
+// 4. Password should at least contain one special characters
+  if (true){
+   int count = 0;
+   for (int i = 0; i < password.length(); i++) {
+    // casting int to char
+    char ch = (char) i;
+    String str = Character.toString(ch);
+    if (password.contains(str)){
+     count = 1;
+    }
+   }
+   if (count == 0){
+    return false;
+   }
+  }
+// 5. Password should at least contain a digit
   if (true) {
    int count = 0;
    for (int i = 0; i <= 9; i++) {
@@ -49,6 +68,7 @@ public class InterviewTask1 {
      count = 1;
     }
    }
+
    if(count == 0){
     return false;
    }
