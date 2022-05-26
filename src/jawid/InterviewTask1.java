@@ -20,56 +20,56 @@ public class InterviewTask1 {
   }
 //2. Password should at least contain one upper case letter
   if (true) {
-   int count = 0;
+   int countUppercase = 0;
    for (char i = 'A'; i <= 'Z'; i++) {
     String str1 = Character.toString(i);
     if (password.contains(str1)) {
-     count = 1;
+     countUppercase = 1;
     }
    }
-   if(count == 0){
+   if(countUppercase == 0){
     return false;
    }
   }
 // 3. Password should at least contain one lowercase letter
   if (true) {
-   int count = 0;
+   int countLowercase = 0;
    for (char i = 'a'; i <= 'z'; i++) {
     String str1 = Character.toString(i);
     if (password.contains(str1)) {
-     count = 1;
+     countLowercase = 1;
     }
    }
-   if(count == 0){
+   if(countLowercase == 0){
     return false;
    }
   }
 // 4. Password should at least contain one special characters
   if (true){
-   int count = 0;
+   int countSpecialChar = 0;
    for (int i = 0; i < password.length(); i++) {
     // casting int to char
     char ch = (char) i;
     String str = Character.toString(ch);
     if (password.contains(str)){
-     count = 1;
+     countSpecialChar = 1;
     }
    }
-   if (count == 0){
+   if (countSpecialChar == 0){
     return false;
    }
   }
 // 5. Password should at least contain a digit
   if (true) {
-   int count = 0;
+   int countDigits = 0;
    for (int i = 0; i <= 9; i++) {
     String str1 = Integer.toString(i);
     if (password.contains(str1)) {
-     count = 1;
+     countDigits = 1;
     }
    }
 
-   if(count == 0){
+   if(countDigits == 0){
     return false;
    }
   }
