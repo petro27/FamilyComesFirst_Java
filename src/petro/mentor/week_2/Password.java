@@ -44,3 +44,4 @@ public class Password {
         } if (validPassword(confirmPassword)) System.out.println(true);
     }
 }
+
