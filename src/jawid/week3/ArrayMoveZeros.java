@@ -11,16 +11,15 @@ input:  {1,0,2,0,3,0,4,0};
 output: [1, 2, 3, 4, 0, 0, 0, 0]
 */
 public static void moveZerosArr(int [] arr){
-    int [] array = {1,0,2,0,3,0,4,0};
-    int [] movedZeros = new int[array.length];
+    int [] movedZeros = new int[arr.length];
     int index = 0;
-    for (int each : array){
+    for (int each : arr){
         if (each !=0){
             movedZeros[index] = each;
             index++;
         }
     }
-    System.out.println("Arrays.toString(array) = " + Arrays.toString(array));
+    System.out.println("Arrays.toString(array) = " + Arrays.toString(arr));
     System.out.println("Arrays.toString(movedZeros) = " + Arrays.toString(movedZeros));
 
 }
