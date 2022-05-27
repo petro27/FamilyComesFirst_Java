@@ -1,5 +1,6 @@
 package jawid.week2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class InterviewTask4 {
