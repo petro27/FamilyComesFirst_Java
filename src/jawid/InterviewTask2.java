@@ -74,6 +74,6 @@ public class InterviewTask2 {
  }
 
  public static void main(String[] args) {
-  System.out.println(passwordValidation("Sc#1"));
+  System.out.println(passwordValidation("Sc#1ja89"));
  }
 }
