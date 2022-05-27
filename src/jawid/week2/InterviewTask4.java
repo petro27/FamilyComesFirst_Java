@@ -21,6 +21,10 @@ public class InterviewTask4 {
     }
      */
     public static int maxNum(int[] arr) {
+        // shorter method from Karim our group member
+//        Arrays.sort(arr);
+//        return arr[arr.length-1];
+
         int max = arr[0];
         for (int i = 0; i < arr.length; i++) {
             int nums = arr[i];
@@ -32,6 +36,9 @@ public class InterviewTask4 {
     }
 
     public static int minNum(int[] arr) {
+        // shorter method from Karim our group member
+//        Arrays.sort(arr);
+//        return arr[0];
         int min = arr[0];
         for (int i = 0; i < arr.length; i++) {
             int nums = arr[i];
