@@ -1,4 +1,4 @@
-package jawid;
+package jawid.week2;
 
 import java.util.Scanner;
 
@@ -6,6 +6,18 @@ public class InterviewTask4 {
     /*
     4️⃣ Array - Find Maximum
     Write a method that can find the maximum number from an int Array
+     */
+/*
+// 9. find maximum (Mentor Answer)
+    public static int findMax(int[] arr) {
+        int temp = 0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > temp) {
+                temp = arr[i];
+            }
+        }
+        return temp;
+    }
      */
     public static int maxNum(int[] arr) {
         int max = arr[0];
