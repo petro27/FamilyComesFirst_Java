@@ -13,12 +13,18 @@ output: [1, 2, 3, 4, 0, 0, 0, 0]
 public static void moveZerosArr(int [] arr){
     int [] movedZeros = new int[arr.length];
     int index = 0;
-    for (int each : arr){
-        if (each !=0){
-            movedZeros[index] = each;
+    for (int i = 0; i < arr.length; i++) {
+        if (arr[i] !=0){
+            movedZeros[index] = arr[i];
             index++;
         }
     }
+//    for (int each : arr){
+//        if (each !=0){
+//            movedZeros[index] = each;
+//            index++;
+//        }
+//    }
     System.out.println("Arrays.toString(array) = " + Arrays.toString(arr));
     System.out.println("Arrays.toString(movedZeros) = " + Arrays.toString(movedZeros));
 
