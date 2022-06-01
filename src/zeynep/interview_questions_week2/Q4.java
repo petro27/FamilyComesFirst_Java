@@ -19,5 +19,5 @@ public class Q4 {
     public static void main(String[] args) {
         int [] nums = {1,0,5,8,7,-9,4};
         System.out.println(findMax(nums));
-    }
+    }//
 }
