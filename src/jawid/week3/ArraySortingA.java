@@ -16,8 +16,8 @@ arr = Sort(arr); ==>{ 7, 8, 9, 10};
         for (int i = 0; i < arr.length; i++) {
             for (int j = i+1; j < arr.length; j++) {// Loop over java array
                 if (arr[i] >= arr[j]){//compare outer loop object with inner loop
-                    int nums = arr[i]; // if greater than swapping.
-                    arr[i] = arr[j];// Swaping code here.
+                    int nums = arr[i]; //if greater than swapping.
+                    arr[i] = arr[j];//Swaping code here.
                     arr[j] = nums;
                 }
             }
