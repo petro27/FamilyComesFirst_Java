@@ -1,4 +1,4 @@
-package jawid;
+package jawid.week2;
 /*
 2️⃣ String - Password Validation Task
 Write a return method that can verify if a password is valid or not. Requirements:
@@ -9,6 +9,38 @@ Write a return method that can verify if a password is valid or not. Requirement
 5. Password should at least contain a digit
 6. if all requirements above are met, the method returns true, otherwise returns false
 */
+/*
+7. passowrd validation (Mentor Answer)
+    public static boolean passValidation(String str) {
+        boolean result = false;
+        boolean isUpper = false;
+        boolean isLower = false;
+        boolean isSpace = false;
+        boolean isSpecial = false;
+
+        if (str.length() >= 6) {
+            for (int i = 0; i < str.length(); i++) {
+                if (Character.isUpperCa
+se(str.charAt(i))) {
+                    isUpper = true;
+                }
+                if (Character.isLowerCase(str.charAt(i))) {
+                    isLower = true;
+                }
+                if (Character.isWhitespace(str.charAt(i))) {
+                    isSpace = true;
+                }
+                if (!Character.isLetterOrDigit(str.charAt(i))) {
+                    isSpecial = true;
+                }
+            }
+            if (isUpper & isLower & isSpecial & !isSpace) {
+                result = true;
+            }
+        }
+        return result;
+    }
+ */
 public class InterviewTask2 {
  public static boolean passwordValidation(String password){
 //1. Password MUST be at least 6 characters and should not contain space
@@ -74,6 +106,6 @@ public class InterviewTask2 {
  }
 
  public static void main(String[] args) {
-  System.out.println(passwordValidation("Sc#1"));
+  System.out.println(passwordValidation("Sc#1ja89"));
  }
 }
