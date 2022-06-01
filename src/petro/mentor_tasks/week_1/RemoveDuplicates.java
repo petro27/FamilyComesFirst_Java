@@ -1,4 +1,4 @@
-package petro.mentor.week_1;
+package petro.mentor_tasks.week_1;
 
 class RemoveDuplicates {
     /*
