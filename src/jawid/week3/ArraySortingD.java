@@ -11,9 +11,11 @@ Ex:  int[] arr = {10,20,7, 8, 90};
 arr = Sort(arr);  ==>  {90, 20, 10, 8, 7};
      */
     public static int [] sortArrayD(int [] arr){
-//        Arrays.sort(arr);
+
+        // Descending sort
+        Arrays.sort(arr);
 //        int[] arraySortD = new int[arr.length];
-//        for(int i = 0; i < arr.length; i++) {
+//        for(int i = arr.length-1; i >0; i--) {
 //            arraySortD[i] = arr[(arr.length-1)-i];
 //        }
         for (int i = 0; i < arr.length; i++) {
@@ -29,7 +31,7 @@ arr = Sort(arr);  ==>  {90, 20, 10, 8, 7};
     }
 
     public static void main(String[] args) {
-        int[] arr = {10,20,7, 67,6, 127,90, 0, 8, 90};
+        int[] arr = {10,20,7, 67,-4,-12,6,1289,190, 127,90, 0, 8, 90};
         System.out.println(Arrays.toString(sortArrayD(arr)));
     }
 

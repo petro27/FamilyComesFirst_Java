@@ -18,6 +18,7 @@ public static void moveZerosArr(int [] arr){
             movedZeros[index] = arr[i];
             index++;
         }
+
     }
 //    for (int each : arr){
 //        if (each !=0){
