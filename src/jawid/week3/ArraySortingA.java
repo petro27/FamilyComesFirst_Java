@@ -11,7 +11,7 @@ int[] arr = {10, 9, 8, 7};
 arr = Sort(arr); ==>{ 7, 8, 9, 10};
 */
     public static int [] arrayAcSorting(int [] arr){
-        // Example without sort() method
+// Example without sort() method
 //        Arrays.sort(arr);
         for (int i = 0; i < arr.length; i++) {
             for (int j = i+1; j < arr.length; j++) {// Loop over java array
