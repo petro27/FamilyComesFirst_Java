@@ -1,4 +1,4 @@
-package petro.mentor.week_2;
+package petro.mentor_tasks.week_2;
 
 import java.util.ArrayList;
 import java.util.Collections;
