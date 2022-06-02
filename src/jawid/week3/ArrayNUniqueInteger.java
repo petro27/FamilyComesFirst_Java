@@ -11,12 +11,13 @@ that, given an integer N (1 < N < 100), returns an array containing N unique int
     public static int [] sumZero(int n){
         int[] sumofZero = new int[n];
         int index = 0;
-        if (n % 2 == 1)
+        if (n % 2 == 1) {
             sumofZero[index++] = 0;
-        n /= 2;
-        for (int i = 1; i <= n; i++) {
-            sumofZero[index++] = i;
-            sumofZero[index++] = -i;
+            n /= 2;
+            for (int i = 1; i <= n; i++) {
+                sumofZero[index++] = i;
+                sumofZero[index++] = -i;
+            }
         }
         Arrays.sort(sumofZero);
         return sumofZero;
