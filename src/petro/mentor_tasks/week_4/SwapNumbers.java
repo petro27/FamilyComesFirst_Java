@@ -18,6 +18,6 @@ public class SwapNumbers {
     }
 
     public static void main(String[] args) {
-        swapNumbers(Arrays.asList(1,2,3,4,5,6));
+        swapNumbers(Arrays.asList(1,2));
     }
 }
