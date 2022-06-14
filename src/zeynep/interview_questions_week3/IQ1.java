@@ -14,7 +14,21 @@ public class IQ1 {
 
     public static int[] sortAscending(int[] arr){
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 1; j < arr.length; j++) {
+            for (int j = i+1 ; j < arr.length; j++) {
+                int tmpMax = 0;
+                if (arr[i] > arr[j]) {
+                    tmpMax = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = tmpMax;
+                }
+            }
+        }
+
+        return arr;
+    }
+    public static int[] sortAscending(int[] arr,int [] b){
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i+1 ; j < arr.length; j++) {
                 int tmpMax = 0;
                 if (arr[i] > arr[j]) {
                     tmpMax = arr[i];
@@ -28,8 +42,12 @@ public class IQ1 {
     }
 
 
+
+
+
+
     public static void main(String[] args) {
-        int[] ar = { 5, 1,3,5669, 6,8,15,14,89 };
+        int[] ar = { -5, 0,1,3,-5669, 6,8,0,15,-14,89 };
         System.out.println(Arrays.toString(sortAscending(ar)));
     }
 
