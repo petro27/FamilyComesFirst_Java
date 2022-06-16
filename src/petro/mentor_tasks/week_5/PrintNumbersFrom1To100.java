@@ -16,6 +16,7 @@ Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84
 
 
         int num = 33;
+
         if (num > 0 && num <= 100) {
                 if (num % 15 == 0) {
                     System.out.println("Divisible By 15 15 30 45 60 75 90");
