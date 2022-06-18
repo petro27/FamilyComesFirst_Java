@@ -17,10 +17,10 @@ public class ReverseNegativeNumber {
         } else {
             result = num;
         }
-        return result;
+        return -result;
     }
 
     public static void main(String[] args) {
-        System.out.println(reverseNegativeNumber(1234));
+        System.out.println(reverseNegativeNumber(0));
     }
 }
